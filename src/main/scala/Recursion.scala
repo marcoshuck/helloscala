@@ -18,10 +18,15 @@ object Recursion {
 
   /**
    * factorial calculates the factorial of a certain number f.
-   * @param f is the number to calculate the factorial of.
+   * @param f is the number to calculate the factorial.
    * @return the factorial of f.
    */
   def factorial(f: Long): Long = if (f == 0) 1 else f * factorial(f - 1)
 
-  def fibonacci(f: Long): Long = 0
+  /**
+   * fibonacci calculates the fibonacci number of a certain number.
+   * @param f is the number to calculate the fibonacci.
+   * @return the fibonacci number of f.
+   */
+  def fibonacci(f: Long): Long = if (f == 0) 0 else if (f == 1) 1 else fibonacci(f-2) + fibonacci(f-1)
 }
