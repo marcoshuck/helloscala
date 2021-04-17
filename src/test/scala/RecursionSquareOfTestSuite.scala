@@ -1,6 +1,6 @@
 import org.scalatest.FunSuite
 
-class RecursionTestSuite extends FunSuite {
+class RecursionSquareOfTestSuite extends FunSuite {
   import ar.com.huck.helloscala.Recursion.squareOf
 
   test("squareOf(1) == 1") {
