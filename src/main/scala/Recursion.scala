@@ -22,4 +22,6 @@ object Recursion {
    * @return the factorial of f.
    */
   def factorial(f: Long): Long = if (f == 0) 1 else f * factorial(f - 1)
+
+  def fibonacci(f: Long): Long = 0
 }
